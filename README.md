@@ -19,3 +19,9 @@ book; you can safely ignore them.  In a few cases, programs
 have been reformatted in an unnatural way so that they can be presented
 in stages in the book.
 
+## Exercises
+
+Each chapter directory also contains an `exercises/` directory with the
+solutions to that chapter's exercises, one per file or directory. The
+solutions are licensed under the same license as above, and were written
+by [Nicola 'tekNico' Larosa](mailto:gopl.io@teknico.net).
