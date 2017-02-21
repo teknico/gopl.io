@@ -1,0 +1,1 @@
+Solutions to exercises 2.3, 2.4 and 2.5 are in ch2/popcount/popcount_test.go .
