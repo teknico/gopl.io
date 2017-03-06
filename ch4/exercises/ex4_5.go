@@ -13,13 +13,11 @@ import "fmt"
 // nodup returns a slice without adjacent duplicates.
 // The underlying array is modified during the call.
 func nodup(strings []string) []string {
-	tip, num_dup := 0, 0
-	for _, s := range strings[1:] {
-		if s == strings[tip] {
-			num_dup++
-		} else {
+	tip := 0
+	for i, s := range strings {
+		if s != strings[tip] {
 			tip++
-			if num_dup > 0 {
+			if tip != i {
 				strings[tip] = s
 			}
 		}
